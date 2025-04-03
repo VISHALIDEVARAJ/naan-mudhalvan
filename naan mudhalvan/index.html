@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vishali Devaraj- Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: #333 ;
+        }
+
+        header {
+            background-color:#3768a1;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        section {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid #3768a1; /* Added border */
+            border-radius: 10px; /* Rounded edges */
+            background-color: #f9f9f9; /* Light background */
+            text-align: center;
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #3768a1;
+            margin-bottom: 10px;
+        }
+
+        .skills, .languages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center; /* Center alignment */
+        }
+
+        .skill, .language {
+            background-color: #85C1E9;
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #3768a1;
+            flex: 1 0 30%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #contact input, #contact textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        #contact button {
+            padding: 10px;
+            background-color: #3768a1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #contact button:hover {
+            background-color: #2d5379;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vishali Devaraj</h1>
+    <p>II BSc CS at KGCAS</p>
+</header>
+
+<div class="container">
+
+    <!-- About Me Section -->
+    <section>
+        <center>
+           <h1>Hello! I'm VISHALI DEVARAJ, 
+            <br>
+            Department of II-BSc COMPUTER SCIENCE  from KG COLLEGE OF ARTS AND SCIENCE and have been actively involved in  ever since.
+
+            I have a keen interest in  technical skills, and I enjoy working on projects that challenge me and push my creativity. When I'm not working, I love spending time in drawing,reading books etc..,
+            
+            
+
+           </h1>
+          
+        </center>
+       
+        <p></p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <center>
+        
+            <h2>Skills</h2>
+        </center>
+        <div class="skills">
+            <div class="skill">Flexible</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Logical Thinking</div>
+            <div class="skill">Logical Reasoning</div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section>
+        <center>
+            
+            <h2>Languages</h2>
+        </center>
+        <div class="languages">
+            <div class="language">Java</div>
+            <div class="language">C++</div>
+            <div class="language">HTML</div>
+            <div class="language">CSS</div>
+        </div>
+    </section>
+</div>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <center>
+            
+            <h2>Contact Me</h2>
+        </center>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 VISHALI DEVARAJ All rights reserved.</p>
+</footer>
+
+</body>
+</html>
